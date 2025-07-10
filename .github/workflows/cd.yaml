@@ -4,8 +4,13 @@ on:
   release:
     types: [published]
 
+permissions: read-all
+
 jobs:
   publish:
+    permissions:
+      packages: write
+
     runs-on: ubuntu-latest
 
     steps:
