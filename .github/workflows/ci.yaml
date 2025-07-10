@@ -34,7 +34,7 @@ jobs:
         run: |
           cd test
           source .venv/bin/activate
-          python test_core.python
+          python test_core.py
   
       - name: "Clean venv and recreate"
         run: |
