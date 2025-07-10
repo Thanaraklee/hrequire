@@ -1,6 +1,6 @@
 |||
 |:-:|:-:|
-|Security|[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Thanaraklee/hrequire/badge)](https://scorecard.dev/viewer/?uri=github.com/Thanaraklee/hrequire)|
+|Security|[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Thanaraklee/hrequire/badge)](https://scorecard.dev/viewer/?uri=github.com/Thanaraklee/hrequire) [![CodeQL](https://github.com/Thanaraklee/hrequire/actions/workflows/codeql.yml/badge.svg)](https://github.com/Thanaraklee/hrequire/actions/workflows/codeql.yml)|
 |CI Testing |[![Test HRequire](https://github.com/Thanaraklee/hrequire/actions/workflows/ci.yaml/badge.svg?branch=develop)](https://github.com/Thanaraklee/hrequire/actions/workflows/ci.yaml)|
 |PyPI|![PyPI - Version](https://img.shields.io/pypi/v/HRequire)|
 
