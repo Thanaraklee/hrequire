@@ -2,6 +2,7 @@ import ast
 from pathlib import Path
 import subprocess
 from importlib.metadata import version, PackageNotFoundError
+import json
 
 class HRequire:
     def __init__(self):
@@ -108,7 +109,6 @@ class HRequire:
 
 def cli():
     import argparse
-    import json
 
     parser = argparse.ArgumentParser(description="Auto-generate requirements.txt from your project imports.")
     parser.add_argument("--details", action="store_true", help="Show detailed import mapping per file (as JSON)")
