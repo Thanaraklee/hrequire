@@ -8,9 +8,9 @@ license = "MIT"
 authors = [
     { name = "Thanaraklee", email = "bzank.lee@hotmail.com" }
 ]
-urls = {
-  "Homepage" = "https://github.com/Thanaraklee/hrequire",
-}
+
+[project.urls]
+Homepage = "https://github.com/Thanaraklee/hrequire"
 
 [project.scripts]
 hrequire = "hrequire.core:cli"
