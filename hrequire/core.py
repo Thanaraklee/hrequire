@@ -11,6 +11,10 @@ class HRequire:
         self.MANUAL_MAP = {
             "bs4": "beautifulsoup4",
             "PIL": "Pillow",
+            "yaml": "PyYAML",
+            "cv2": "opencv-python",
+            "sklearn": "scikit-learn",
+            "google": "google-auth",
         }
     def list_py_files(self) -> list[Path]:
         py_files = []
@@ -122,4 +126,5 @@ def cli():
         print(json.dumps(details, indent=2, ensure_ascii=False))
     else:
         h.write_requirements_txt()
-
+if __name__ == "__main__":
+    cli()
