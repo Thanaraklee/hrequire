@@ -1,6 +1,6 @@
 [project]
 name = "HRequire"
-version = "1.0.0"
+version = "1.0.1"
 description = "Auto-generate requirements.txt from your Python project imports"
 readme = "README.md"
 requires-python = ">=3.9" 
